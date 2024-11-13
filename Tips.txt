@@ -1,0 +1,8 @@
+1/Experiment with different Tailwind utility classes to explore the flexibility of styling.
+
+2/Refer to the "Tailwind CSS documentation" to find specific classes for your needs.
+
+3/Make sure to test your layout on different screen sizes to ensure responsiveness.
+Use sm:, md:, lg:, and xl: prefixes for responsive design.
+
+4/Install the Tailwind css extension on Vscode, it will help you to organize the utility classes and more suggestions.

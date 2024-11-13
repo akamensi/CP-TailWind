@@ -1,0 +1,85 @@
+<!-- Here’s a breakdown of how to approach these Tailwind CSS Checkpoint Exercises -->
+<!-- complet the Head element and do your work  -->
+
+<!-- 1/Personal Portfolio Webpage -->
+<!-- Header Section -->
+
+<header class="flex justify-between items-center p-4 bg-gray-800 text-white">
+  <h1 class="text-2xl font-bold">Your Name</h1>
+  <nav class="space-x-4">
+    <a href="#home" class="hover:text-gray-400">Home</a>
+    <a href="#projects" class="hover:text-gray-400">Projects</a>
+    <a href="#contact" class="hover:text-gray-400">Contact</a>
+  </nav>
+</header>
+
+<!-- Hero Section -->
+
+<section
+  class="hero bg-cover bg-center h-screen text-white flex items-center justify-center"
+  style="background-image: url('your-background-image.jpg')"
+>
+  <div class="text-center">
+    <h2 class="text-4xl md:text-6xl font-bold mb-4">Hello, I'm [Your Name]</h2>
+    <p class="text-lg md:text-xl">Web Developer & Designer</p>
+  </div>
+</section>
+
+<!-- Skills Section -->
+
+<section class="skills py-12 bg-gray-100">
+  <h3 class="text-3xl text-center mb-8 font-semibold">My Skills</h3>
+  <div class="flex flex-wrap justify-center space-x-4">
+    <div class="bg-white p-4 shadow rounded">HTML</div>
+    <div class="bg-white p-4 shadow rounded">CSS</div>
+    <div class="bg-white p-4 shadow rounded">JavaScript</div>
+    <!-- Add more skill items -->
+  </div>
+</section>
+
+<!-- Projects Section -->
+
+<section class="projects py-12">
+  <h3 class="text-3xl text-center mb-8 font-semibold">Projects</h3>
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+    <div class="bg-white shadow-lg rounded overflow-hidden">
+      <img src="project-image.jpg" alt="Project Image" class="w-full" />
+      <div class="p-4">
+        <h4 class="font-bold text-xl">Project Title</h4>
+        <p class="text-gray-700">Project description goes here.</p>
+      </div>
+    </div>
+    <!-- Repeat for more projects -->
+  </div>
+</section>
+
+<!-- Contact Form -->
+
+<section class="contact py-12 bg-gray-200">
+  <h3 class="text-3xl text-center mb-8 font-semibold">Contact Me</h3>
+  <form class="max-w-md mx-auto space-y-4">
+    <input type="text" placeholder="Name" class="w-full p-2 border rounded" />
+    <input type="email" placeholder="Email" class="w-full p-2 border rounded" />
+    <textarea
+      placeholder="Message"
+      class="w-full p-2 border rounded"
+    ></textarea>
+    <button
+      type="submit"
+      class="w-full bg-blue-500 text-white p-2 rounded hover:bg-blue-600"
+    >
+      Send Message
+    </button>
+  </form>
+</section>
+
+<!-- Footer -->
+
+<footer class="bg-gray-800 text-white py-4 text-center">
+  <div class="flex justify-center space-x-4">
+    <a href="#" class="hover:text-gray-400">Facebook</a>
+    <a href="#" class="hover:text-gray-400">Twitter</a>
+    <a href="#" class="hover:text-gray-400">LinkedIn</a>
+  </div>
+  <p class="mt-4">&copy; 2024 Your Name. All rights reserved.</p>
+</footer>
